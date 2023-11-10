@@ -22,10 +22,10 @@ namespace OwnComplex.EF6
         protected override async Task ExecuteAsync(CancellationToken stoppingToken)
         {
            await Example1LoadAPerson();
-           await Example2HiddenId();
-           await Example3OwnOneWithOwnMany();
-           await Example4GuidAsIdInOwnMany();
-           await Example5IndexForFirstNameAndEmailAdress();
+           //await Example2HiddenId();
+           //await Example3OwnOneWithOwnMany();
+           //await Example4GuidAsIdInOwnMany();
+           //await Example5IndexForFirstNameAndEmailAdress();
         }
 
         private async Task Example1LoadAPerson()
